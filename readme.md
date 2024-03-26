@@ -1,8 +1,10 @@
-# Resources for datasets
+# Objective
+To identify malicious websites when provided a link. It is a phishing checker.
+
+## Resources for datasets
 Malicious URLs Data: https://sysnet.ucsd.edu/projects/url/
 
 Current Training Data: https://archive.ics.uci.edu/dataset/327/phishing+websites
-
 
 ## Workflow steps
 - [Preprocessing](#preprocessing)
