@@ -1,5 +1,6 @@
 # Resources for datasets
 Malicious URLs Data: https://sysnet.ucsd.edu/projects/url/
+
 Current Training Data: https://archive.ics.uci.edu/dataset/327/phishing+websites
 
 
@@ -23,6 +24,9 @@ To install directly from requirements:
     ```sh
     pip install -r requirements.txt
 
+## Preprocessing
+Being done in phishing_analysis.ipynb.
+
 ## Features
 Features are going to be the same as the UCI dataset. Clear reasoning is mentioned and it looks good enough to predict if a website is malicious.
 
@@ -42,3 +46,5 @@ Trying Logistic regression to see how well the model performs with the given fea
 
 ## Other Classification Algorithms
 Other algorithms to check further because LogReg is not very powerful and find a more robust algorithm (XGBoost)
+
+### We will be segmenting the code to individual algorithms at the end and not using ipynb. The files will be made .py files. Install Jupyter Notebook extension on VS code until then to view code. Do not Commit any changes on the main branch, fork if you want to work on the repo. 
